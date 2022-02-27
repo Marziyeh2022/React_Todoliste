@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TodoForm from "./TodoForm";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { TiEdit } from "react-icons/ti";
-import { AiOutlineCheckCircle } from "react-icons/ai";
+// import { AiOutlineCheckCircle } from "react-icons/ai";
 
 function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
   const [edit, setEdit] = useState({
